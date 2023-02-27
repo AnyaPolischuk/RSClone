@@ -1,0 +1,132 @@
+{
+  "title": "Welcome to {{app}}",
+  "login": {
+    "title": "Login form: ",
+    "button": "Sing In",
+    "success": "You has been successfully login"
+  },
+  "register": {
+    "title": "Register form: ",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "password": "Password",
+    "repeatPassword": "Repeat password",
+    "email": "Email",
+    "button": "Register",
+    "success": "Account has been successfully registered"
+  },
+  "logout": {
+    "success": "You has been successfully logout"
+  },
+  "errors": {
+    "email": "Email isn't correct",
+    "password": "Password is too short",
+    "lName": "Last name should contain only a-Z and minimum 3 chars",
+    "fName": "First name should contain only a-Z and minimum 3 chars",
+    "passwordNoMuch": "Password and Repeat password doesn't much, please check it and try again",
+    "invalidCredential": "Email or password isn't correct",
+    "allFieldRequired": "All fields should be filled",
+    "userExist": "User with this email isn't exist. Please login in",
+    "emptyToken": "A token is required for authentication",
+    "invalidToken": "Invalid token"
+  },
+  "button": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout"
+  },
+  "user": {
+    "title": "User profile",
+    "welcome": "Welcome {{user}}",
+    "register": "Register"
+  },
+  "pagination": {
+    "pages": "Results per page",
+    "next": "Next",
+    "previous": "Previous"
+  },
+  "statistic": {
+    "date": "Game date",
+    "text": "Text",
+    "correct": "Correct char",
+    "incorrect": "Incorrect char",
+    "percent": "Successfully percent",
+    "more": "More information",
+    "name": "Name",
+    "pages": "Results per page",
+    "leader": "Leaders board"
+  },
+  "infoPage": {
+    "created": "Created with love by wonderfull ",
+    "people": "people",
+    "RSS": "RSSchool final task.",
+    "launched": "Launched on 20th of February, 2023.",
+    "about": "About",
+    "aboutText": "Monkeytype is a minimalistic and customizable typing test. It features many test modes, an account system to save your typing speed history, and user-configurable features such as sounds and more. Monkeytype attempts to emulate the experience of natural keyboard typing during a typing test, by unobtrusively presenting the text prompts and displaying typed characters in-place, providing straightforward, real-time feedback on typos, speed, and accuracy.",
+    "results": "Results screen",
+    "resultsText": "After completing a test you will be able to see your accuracy, character stats, test length info and test info.",
+    "collaborators": "Collaborators"
+  },
+  "game": {
+    "saved": "Game was successfully saved"
+  },
+  "gameSettings": {
+    "punctuation": "punctuation",
+    "numbers": "numbers",
+    "time": "timer off",
+    "time15": "15 s",
+    "time30": "30 s",
+    "time60": "60 s",
+    "time120": "120 s",
+    "timeInstallYourself": "install yourself",
+    "words": "words off",
+    "words10": "10 words",
+    "words25": "25 words",
+    "words50": "50 words",
+    "wordsInstallYourself": "install yourself",
+    "sentences": "sentence off",
+    "sentencesShort": "short sentence",
+    "sentencesMedium": "medium sentence",
+    "sentencesLong": "long sentence",
+    "change": "change",
+    "restart": "restart",
+    "setYourself": "save",
+    "writeOwnText": "Write your own text",
+    "help": "help",
+    "infoAboutStart": "To start the game, click on the words and wait until the green identifier light up",
+    "keyboardLang": "en"
+  },
+  "finishGameStatistics": {
+    "title": "Game end statistics",
+    "text": "Text: ",
+    "finishTime": "Finish time",
+    "sec": "sec",
+    "noTime": "Finish time: No",
+    "successRate": "Success rate: ",
+    "timer": "Timer: ",
+    "noTimer": "Timer: off",
+    "unwrittenLetters": "Unwritten letters: ",
+    "tryAgain": "Try again",
+    "correctChars": "Correct chars",
+    "incorrectChars": "Incorrect chars"
+  },
+  "modalSave": {
+    "description": "Only users who login can save result to leader board.",
+    "question": "Do you want to continue?",
+    "close": "Close modal",
+    "permanent": "Close for all time",
+    "login": "Go to login page"
+  }, 
+  "settings": {
+    "lang": "Language",
+    "ru": "Russian",
+    "en": "English",
+    "langDscr": "Switch the language of the interface",
+    "sound": "Sound",
+    "soundDscr": "Play a short sound when you press a key",
+    "noSound": "None",
+    "click": "Click", 
+    "keyboard": "Keyboard",
+    "font": "Font Family"
+  }
+}

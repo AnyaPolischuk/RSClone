@@ -1,0 +1,35 @@
+.footer {
+  max-width: 1200px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+.footerYear {
+  color: #dfd7af;
+  padding-left: 30px;
+}
+
+.rsLogo {
+  width: 100px;
+  padding-left: 30px;
+  filter: invert(93%) sepia(6%) saturate(1078%) hue-rotate(8deg) brightness(94%) contrast(89%);
+}
+
+.footerGithub {
+  width: 27px;
+  height: 27px;
+  padding-right: 10px;
+  filter: invert(93%) sepia(6%) saturate(1078%) hue-rotate(8deg) brightness(94%) contrast(89%);
+}
+
+.year {
+  font-size: 20px;
+}
+
+.githubsWrapper {
+  padding-right: 30px;
+}

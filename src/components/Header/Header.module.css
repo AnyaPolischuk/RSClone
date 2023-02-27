@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.menuItems {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.keyboard,
+.info,
+.settings,
+.addUser,
+.leader {
+  width: 30px;
+  height: 30px;
+  filter: invert(93%) sepia(6%) saturate(1078%) hue-rotate(8deg) brightness(94%) contrast(89%);
+  margin-right: 5px;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: #e3e3e3;
+  font-size: 35px;
+  padding-left: 15px;
+  cursor: pointer;
+  min-width: 400px;
+}
+
+.btnChangeLang {
+  width: 30px;
+  border-radius: 5px;
+}
+
+.separator{
+  color: #dfd7af;
+  font-weight: 800;
+  font-size: 40px;
+}

@@ -1,0 +1,128 @@
+.container {
+  width: 800px;
+  height: 40px;
+  background-color: #444;
+  margin: 60px auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #dfd7af;
+}
+
+.time,
+.words,
+.quote {
+  background-color: #444;
+  border: 2px solid #444;
+  color: #dfd7af;
+}
+
+.time :checked,
+.words :checked,
+.quote :checked {
+  background-color: rgb(57, 55, 55);
+  color: #e3e3e3;
+  cursor: pointer;
+}
+
+.restart {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  color: #444;
+  margin: 0 auto;
+}
+
+.esc {
+  width: 30px;
+  height: 30px;
+  filter: invert(93%) sepia(6%) saturate(1078%) hue-rotate(8deg) brightness(94%) contrast(89%);
+  padding: 0 5px;
+}
+
+.item,
+select {
+  cursor: pointer;
+}
+
+.item_active {
+  color: #e3e3e3;
+  cursor: pointer;
+}
+
+.separator {
+  width: 2px;
+  height: 40px;
+  border-radius: 2px;
+  background-color: rgb(57, 55, 55);
+}
+
+.installTime,
+.installWords,
+.installText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #444444b0;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.installTimeInput,
+.installWordsInput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 500px;
+}
+
+.inputTime,
+.inputWords,
+.inputText {
+  width: 300px;
+  height: 40px;
+  font-size: 30px;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+  color: #444;
+}
+
+.btnTime,
+.btnWords,
+.btnText {
+  height: 42px;
+  font-size: 20px;
+  border-radius: 7px;
+  background-color: #dfd7af;
+  border: 1px solid #dfd7af;
+  color: #444;
+  width: 120px;
+  margin-left: 15px;
+}
+
+.btnText {
+  width: 500px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+.inputText {
+  width: 500px;
+  height: 200px;
+}
+
+.textTitle {
+  font-size: 35px;
+  color: #dfd7af;
+}
+
+.installTextInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
